@@ -47,7 +47,7 @@ SELECT EmployeeUNI.unique_id, Employees.name
 
 /*
 
-Example 1:
+Example 2:
 
 Input: 
 Teacher table:
@@ -84,3 +84,14 @@ Teacher 2:
 SELECT teacher_id, COUNT(DISTINCT subject_id) AS cnt
   FROM Teacher
     GROUP BY teacher_id
+
+/*
+Example 3
+find null or not 2 
+*/ 
+  
+SELECT name
+  FROM Customer
+    WHERE referee_id IS NULL
+    OR 
+    NOT referee_id = 2
