@@ -1,5 +1,6 @@
 
 /*
+
 Total hour spent
    10.0                + 2.0
    before 11/22/2022  11/22/22
@@ -29,6 +30,7 @@ Following are some very important Complex SQL Queries Examples with answers. I h
 If you need to recover data from a damaged SQL Server database, it is recommended to repair SQL Server with the help of a special tool. The software is able to scan the MDF file, find and recover data from the corrupted SQL DB.
 
 Complex SQL Queries Examples (90% ASKED IN Interviews) 
+
 */
 
 
